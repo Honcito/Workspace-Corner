@@ -84,7 +84,6 @@ Explain what these tests verify and why.
 ## API Endpints Documentation 📑
 To view and test all API endpoints, check out the Postman collection I've prepared:
 
-**[Postman API Endpoints Documentation](https://hong66-2174.postman.co/workspace/Hong-Workspace~d4640038-b02c-48e4-bb4a-c5367c4d2073/collection/33378802-b8c3bc66-b0ca-4810-8113-5ff011619e71?action=share&creator=33378802)**
 **[Postman API Endpoints Documentation](https://elements.getpostman.com/redirect?entityId=33378802-b8c3bc66-b0ca-4810-8113-5ff011619e71&entityType=collection)**
 
 
