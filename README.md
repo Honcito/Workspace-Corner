@@ -1,115 +1,112 @@
 # WORKPLACE CORNER
 
-**Workplace Corner** es una aplicación de gestión de empleados diseñada para ayudar a las empresas a mantener un registro eficiente de su personal. La aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los datos de los empleados, proporcionando una interfaz fácil de usar para gestionar la información del equipo.
+**Workplace Corner** is a business chat application designed to help employees communicate and collaborate efficiently. The app allows employees to create individual chats with one another, as well as group chats for team communication, making it easier to work together and develop projects.
 
-## Comenzando 🚀
+## Getting Started 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+See Deployment to learn how to deploy the project._
 
-### Pre-requisitos 📋
 
-Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas en tu sistema:
 
-- [Node.js](https://nodejs.org/en/download/) - Entorno de ejecución para JavaScript.
-- [MySQL](https://www.mysql.com/downloads/) - Sistema de gestión de bases de datos.
-- [Angular CLI](https://angular.io/cli) - Interfaz de línea de comandos para Angular.
-- [Ionic CLI](https://ionicframework.com/docs/cli) - Interfaz de línea de comandos para Ionic.
+### Pre-requisites 📋
 
-Puedes instalar Node.js, Angular CLI e Ionic CLI utilizando los siguientes comandos:
+Before starting, make sure you have the following tools installed on your system:
 
-# Instalar Node.js (sigue las instrucciones en la página de descarga)
-# Instalar Angular CLI
+- [Node.js](https://nodejs.org/en/download/) -  JavaScript runtime environment.
+- [MySQL](https://www.mysql.com/downloads/) - Database management system.
+- [Angular CLI](https://angular.io/cli) - Command-line interface for Angular.
+- [Ionic CLI](https://ionicframework.com/docs/cli) - Command-line interface for Ionic.
+
+You can install Node.js, Angular CLI, and Ionic CLI using the following commands:
+
+# Install Node.js (follow the instructions on the download page)
+# Install Angular CLI
 ```
 npm install -g @angular/cli
 ```
-# Instalar Ionic CLI
+# Install Ionic CLI
 ```
 npm install -g @ionic/cli
 ```
-### Instalación 🔧
+### Instalation 🔧
 
-# A continuación se detallan los pasos para configurar el entorno de desarrollo:
+# Below are the steps to set up the development environment:
 
-# Clona el repositorio:
+# Clona the repository:
 ```
 git clone https://github.com/Honcito/Workspace-Corner.git
 ```
 
-# Navega a la carpeta del backend:
+# Navigate to the backend folder:
 ```
 cd Workspace-Corner/backend
 ```
 
-# Instala las dependencias del backend:
+# Install backend dependencies:
 ```
 npm install
 ```
 
-# Configura la base de datos:
-# Crea una base de datos en MySQL.
-# Actualiza el archivo de configuración de Sequelize con tus credenciales de base de datos.
+# Set up the database:
+# Create a database in MySQL.
+# Update the Sequelize configuration file with your database credentials.
 
-# Inicia el servidor backend:
+# Start the backend server:
 ```
 node index.js
 ```
-# Navega a la carpeta del frontend:
+# Navigate to the frontend folder:
 ```
 cd Workspace-Corner/frontend
 ```
 
-# Instala las dependencias del frontend:
+# Install frontend dependencies:
 ```
 npm install
 ```
 
-# Inicia la aplicación Angular:
+# Start the Angular application:
 ```
 ionic serve
 ```
 
-## Ejecutando las pruebas ⚙️
+# Running the Tests ⚙️
+Explain how to run automated tests for this system.
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+# Analyze End-to-End Tests 🔩
+Explain what these tests verify and why.
 
-## Analice las pruebas end-to-end 🔩
+# Coding Style Tests ⌨️
+Explain what these tests verify and why.
 
-_Explica que verifican estas pruebas y por qué_
+## API Endpints Documentation 📑
+To view and test all API endpoints, check out the Postman collection I've prepared:
 
-
-## Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-
-## Documentación de Endpoints 📑
-Para ver y probar todos los endpoints de la API, consulta la colección de Postman que he preparado:
-
-**[Documentación de Endpoints en Postman](https://hong66-2174.postman.co/workspace/Hong-Workspace~d4640038-b02c-48e4-bb4a-c5367c4d2073/collection/33378802-b8c3bc66-b0ca-4810-8113-5ff011619e71?action=share&creator=33378802)**
+**[Postman API Endpoints Documentation](https://hong66-2174.postman.co/workspace/Hong-Workspace~d4640038-b02c-48e4-bb4a-c5367c4d2073/collection/33378802-b8c3bc66-b0ca-4810-8113-5ff011619e71?action=share&creator=33378802)**
 
 
 
-## Despliegue 📦
+## Deployment📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Add additional notes on how to deploy._
 
-## Construido con 🛠️
+## Built with 🛠️
 
-* Angular - Framework para el frontend.
-* Ionic - Framework para la creación de aplicaciones híbridas.
-* Express - Framework para el backend.
-* Sequelize - ORM para la base de datos MySQL.
-* MySQL - Sistema de gestión de bases de datos.
+* Angular - Frontend framework.
+* Ionic - Framework for building hybrid apps.
+* Express - Backend framework.
+* Sequelize - ORM for MySQL database.
+* MySQL - Database management system.
 
 =======
 
 
-## Autor ✒️
+## Author ✒️
 
 
-* **Víctor Hong Gragera** - *Trabajo Inicial* - (https://github.com/Honcito/Workspace-Corner.git)
+* **Víctor Hong Gragera** - *Initial Work* - (https://github.com/Honcito/Workspace-Corner.git)
 
 =======
 Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
@@ -118,26 +115,19 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
-## Autor ✒️
 
+## License 📄
 
-* **Víctor Hong Gragera** - *Trabajo Inicial* - (https://github.com/Honcito/Workspace-Corner.git)
+This project is licensed under (Your License) - see the LICENSE.md file for details.
 
+## Acknowledgments 🎁
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-
+* Tell others about this project  📢
+* Buy a beer 🍺 or coffe ☕. 
 
 ---
 
-⌨️ con ❤️ por [Hong]([https://github.com/Honcito]) 😊
+⌨️ with ❤️ by [Hong]([https://github.com/Honcito]) 😊
 =======
 
 
