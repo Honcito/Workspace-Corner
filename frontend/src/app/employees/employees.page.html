@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>employees</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-list>
+    <ion-item *ngFor="let e of employees" (click)="gotoUpdateEmployee(e.id)">
+      <ion-label>
+        <h1>{{e.name}}</h1>
+        <p>{{e.email}}</p>
+        <ion-button color="danger" shape="round" (click)="deleteEmployee(e.id)">Delete</ion-button>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <div class="create-button">
+    <ion-button color="dark" routerLink="/create-employees" size="default">Add Employee</ion-button>
+</div>
+
+
+
+

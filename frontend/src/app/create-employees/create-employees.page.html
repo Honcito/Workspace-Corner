@@ -1,0 +1,30 @@
+<form [formGroup]="employeeForm" (ngSubmit)="createEmployee()">
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input formControlName="name" type="text"></ion-input> <!-- Cambia 'formControllerName' a 'formControlName' -->
+  </ion-item>
+
+  <ion-note color="danger" *ngIf="getFormControl('name')?.hasError('required') && getFormControl('name')?.touched">
+    Name is mandatory.
+  </ion-note>
+
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input formControlName="email" type="email"></ion-input>
+  </ion-item>
+
+  <ion-note color="danger" *ngIf="getFormControl('email')?.hasError('required') && getFormControl('email')?.touched">
+    Email is mandatory.
+  </ion-note>
+
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input formControlName="password" type="password"></ion-input>
+  </ion-item>
+
+  <ion-note color="danger" *ngIf="getFormControl('password')?.hasError('required') && getFormControl('password')?.touched">
+    Password is mandatory.
+  </ion-note>
+
+  <ion-button expand="full" type="submit" [disabled]="!employeeForm.valid">Submit</ion-button>
+</form>
